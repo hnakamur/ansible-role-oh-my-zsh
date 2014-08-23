@@ -1,0 +1,2 @@
+---
+- shell: curl -L http://install.ohmyz.sh | sh creates=~/.oh-my-zsh
