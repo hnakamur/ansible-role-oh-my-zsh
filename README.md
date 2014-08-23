@@ -11,7 +11,8 @@ None.
 Role Variables
 --------------
 
-None.
+- zsh_custom_dir: ~/.oh-my-zsh/custom
+    - This variable is used in other roles which depend on this role.
 
 Dependencies
 ------------
