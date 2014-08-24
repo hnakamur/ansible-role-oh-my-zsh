@@ -14,6 +14,9 @@ Role Variables
 - zsh_custom_dir: ~/.oh-my-zsh/custom
     - This variable is used in other roles which depend on this role.
 
+- oh_my_zsh_theme: avit
+    - The theme
+
 Dependencies
 ------------
 
@@ -24,7 +27,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - hnakamur.oh-my-zsh
+         - { role: hnakamur.oh-my-zsh, oh_my_zsh_theme: cloud }
 
 License
 -------

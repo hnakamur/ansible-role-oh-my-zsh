@@ -1,2 +1,4 @@
 ---
 - shell: curl -L http://install.ohmyz.sh | sh creates=~/.oh-my-zsh
+
+- template: src=theme.zsh.j2 dest={{ zsh_custom_dir }}/theme.zsh
