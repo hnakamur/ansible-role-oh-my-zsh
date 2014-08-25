@@ -14,7 +14,7 @@ Role Variables
 - zsh_custom_dir: ~/.oh-my-zsh/custom
     - This variable is used in other roles which depend on this role.
 
-- oh_my_zsh_theme: avit
+- oh_my_zsh_theme: hnakamur
     - The theme
 
 Dependencies
